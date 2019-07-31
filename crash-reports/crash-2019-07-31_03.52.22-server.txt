@@ -1,0 +1,57 @@
+---- Minecraft Crash Report ----
+// My bad.
+
+Time: 7/31/19 3:52 AM
+Description: Exception in server tick loop
+
+java.lang.BootstrapMethodError: java.lang.NoSuchMethodError: io.github.strikerrocker.vt.enchantments.EnchantmentVeteran.attemptToMove(Lnet/minecraft/entity/Entity;)V
+	at io.github.strikerrocker.vt.enchantments.EnchantmentVeteran.onTick(EnchantmentVeteran.java:28)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_29_EnchantmentVeteran_onTick_WorldTickEvent.invoke(.dynamic)
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90)
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182)
+	at net.minecraftforge.fml.common.FMLCommonHandler.onPreWorldTick(FMLCommonHandler.java:287)
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:752)
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397)
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NoSuchMethodError: io.github.strikerrocker.vt.enchantments.EnchantmentVeteran.attemptToMove(Lnet/minecraft/entity/Entity;)V
+	at java.lang.invoke.MethodHandleNatives.resolve(Native Method)
+	at java.lang.invoke.MemberName$Factory.resolve(Unknown Source)
+	at java.lang.invoke.MemberName$Factory.resolveOrFail(Unknown Source)
+	at java.lang.invoke.MethodHandles$Lookup.resolveOrFail(Unknown Source)
+	at java.lang.invoke.MethodHandles$Lookup.linkMethodHandleConstant(Unknown Source)
+	at java.lang.invoke.MethodHandleNatives.linkMethodHandleConstant(Unknown Source)
+	... 10 more
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_221, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 791748224 bytes (755 MB) / 1056964608 bytes (1008 MB) up to 1056964608 bytes (1008 MB)
+	JVM Flags: 2 total; -Xmx1024M -Xms1024M
+	IntCache: cache: 0, tcache: 0, allocated: 13, tallocated: 95
+	FML: MCP 9.42 Powered by Forge 14.23.5.2768 7 mods loaded, 7 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State     | ID        | Version      | Source                                  | Signature                                |
+	|:--------- |:--------- |:------------ |:--------------------------------------- |:---------------------------------------- |
+	| UCHIJAAAA | minecraft | 1.12.2       | minecraft.jar                           | None                                     |
+	| UCHIJAAAA | mcp       | 9.42         | minecraft.jar                           | None                                     |
+	| UCHIJAAAA | FML       | 8.0.99.99    | forge-1.12.2-14.23.5.2768-universal.jar | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| UCHIJAAAA | forge     | 14.23.5.2768 | forge-1.12.2-14.23.5.2768-universal.jar | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| UCHIJAAAA | baubles   | 1.5.2        | Baubles-1.12-1.5.2.jar                  | None                                     |
+	| UCHIJAAAA | jei       | 4.15.0.268   | jei_1.12.2-4.15.0.268.jar               | None                                     |
+	| UCHIJAAAA | vt        | 1.12.2-1.5.4 | VanillaTweaks-1.12.2-1.5.4.jar          | None                                     |
+
+	Loaded coremods (and transformers): 
+	Profiler Position: N/A (disabled)
+	Player Count: 0 / 20; []
+	Is Modded: Definitely; Server brand changed to 'fml,forge'
+	Type: Dedicated Server (map_server.txt)

@@ -1,0 +1,154 @@
+[03:51:58] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[03:52:02] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[03:52:02] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[03:52:02] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2768 for Minecraft 1.12.2 loading
+[03:52:02] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_221, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jre1.8.0_221
+[03:52:02] [main/INFO] [FML]: Searching C:\Users\Matthew\Documents\mc mods\servers\test server\.\mods for mods
+[03:52:02] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[03:52:02] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[03:52:02] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[03:52:02] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[03:52:02] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[03:52:03] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[03:52:03] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[03:52:03] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[03:52:03] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[03:52:03] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[03:52:03] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[03:52:06] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[03:52:06] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2768 Initialized
+[03:52:06] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[03:52:06] [Server thread/INFO] [FML]: Replaced 1036 ore ingredients
+[03:52:06] [Server thread/INFO] [FML]: Config directory created successfully
+[03:52:07] [Server thread/INFO] [FML]: Searching C:\Users\Matthew\Documents\mc mods\servers\test server\.\mods for mods
+[03:52:07] [Server thread/WARN] [FML]: Mod vt is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-1.5.4
+[03:52:07] [Server thread/INFO] [FML]: Forge Mod Loader has identified 7 mods to load
+[03:52:07] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[03:52:08] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, baubles, jei, vt] at CLIENT
+[03:52:08] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, baubles, jei, vt] at SERVER
+[03:52:08] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[03:52:08] [Server thread/INFO] [FML]: Found 1170 ObjectHolder annotations
+[03:52:08] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[03:52:08] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[03:52:09] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[03:52:09] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[03:52:09] [Server thread/INFO] [vt]: VanillaTweaks : Syncing config
+[03:52:09] [Server thread/INFO] [vt]: VanillaTweaks : Registering self planting capability
+[03:52:09] [Server thread/INFO] [vt]: VanillaTweaks : Pre-Initialization Complete
+[03:52:09] [Server thread/INFO] [FML]: Applying holder lookups
+[03:52:09] [Server thread/INFO] [FML]: Holder lookups applied
+[03:52:09] [Server thread/INFO] [vt]: VanillaTweaks : Registering Items
+[03:52:09] [Server thread/INFO] [FML]: Applying holder lookups
+[03:52:09] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: UP_TO_DATE Target: null
+[03:52:09] [Server thread/INFO] [FML]: Holder lookups applied
+[03:52:09] [Server thread/INFO] [vt]: VanillaTweaks : Registering Entities
+[03:52:09] [Server thread/INFO] [FML]: Applying holder lookups
+[03:52:09] [Server thread/INFO] [FML]: Holder lookups applied
+[03:52:09] [Server thread/INFO] [FML]: Applying holder lookups
+[03:52:09] [Server thread/INFO] [FML]: Holder lookups applied
+[03:52:09] [Server thread/INFO] [FML]: Injecting itemstacks
+[03:52:09] [Server thread/INFO] [FML]: Itemstack injection complete
+[03:52:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[03:52:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[03:52:09] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[03:52:10] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[03:52:10] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using default channel type
+[03:52:10] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `stone_sword`, expected `vt`. This could be a intended override, but in most cases indicates a broken mod.
+[03:52:10] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `stone_stairs`, expected `vt`. This could be a intended override, but in most cases indicates a broken mod.
+[03:52:10] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `stone_shovel`, expected `vt`. This could be a intended override, but in most cases indicates a broken mod.
+[03:52:10] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `stone_pickaxe`, expected `vt`. This could be a intended override, but in most cases indicates a broken mod.
+[03:52:10] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `stone_hoe`, expected `vt`. This could be a intended override, but in most cases indicates a broken mod.
+[03:52:10] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `stone_brick_stairs`, expected `vt`. This could be a intended override, but in most cases indicates a broken mod.
+[03:52:10] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `stone_axe`, expected `vt`. This could be a intended override, but in most cases indicates a broken mod.
+[03:52:10] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `spruce_stairs`, expected `vt`. This could be a intended override, but in most cases indicates a broken mod.
+[03:52:10] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `sandstone_stairs`, expected `vt`. This could be a intended override, but in most cases indicates a broken mod.
+[03:52:10] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `red_sandstone_stairs`, expected `vt`. This could be a intended override, but in most cases indicates a broken mod.
+[03:52:10] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `quartz_stairs`, expected `vt`. This could be a intended override, but in most cases indicates a broken mod.
+[03:52:10] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `purpur_stairs`, expected `vt`. This could be a intended override, but in most cases indicates a broken mod.
+[03:52:10] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `oak_stairs`, expected `vt`. This could be a intended override, but in most cases indicates a broken mod.
+[03:52:10] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `nether_brick_stairs`, expected `vt`. This could be a intended override, but in most cases indicates a broken mod.
+[03:52:10] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `jungle_stairs`, expected `vt`. This could be a intended override, but in most cases indicates a broken mod.
+[03:52:10] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `dark_oak_stairs`, expected `vt`. This could be a intended override, but in most cases indicates a broken mod.
+[03:52:10] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `brick_stairs`, expected `vt`. This could be a intended override, but in most cases indicates a broken mod.
+[03:52:10] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `birch_stairs`, expected `vt`. This could be a intended override, but in most cases indicates a broken mod.
+[03:52:10] [Server thread/WARN] [FML]: Potentially Dangerous alternative prefix `minecraft` for name `acacia_stairs`, expected `vt`. This could be a intended override, but in most cases indicates a broken mod.
+[03:52:10] [Server thread/INFO] [FML]: Applying holder lookups
+[03:52:10] [Server thread/INFO] [FML]: Holder lookups applied
+[03:52:10] [Server thread/INFO] [vt]: VanillaTweaks : Initialization Complete
+[03:52:10] [Server thread/INFO] [FML]: Injecting itemstacks
+[03:52:10] [Server thread/INFO] [FML]: Itemstack injection complete
+[03:52:11] [Server thread/INFO] [vt]: VanillaTweaks : Post-Initialization Complete
+[03:52:11] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 7 mods
+[03:52:11] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[03:52:11] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@216dc303)
+[03:52:12] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 493 advancements
+[03:52:13] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@216dc303)
+[03:52:13] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@216dc303)
+[03:52:13] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[03:52:14] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 6%
+[03:52:15] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 12%
+[03:52:16] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 28%
+[03:52:17] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 39%
+[03:52:18] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 52%
+[03:52:19] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 66%
+[03:52:20] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 79%
+[03:52:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 92%
+[03:52:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (10.921s)! For help, type "help" or "?"
+[03:52:22] [Server thread/ERROR] [FML]: Exception caught during firing event net.minecraftforge.fml.common.gameevent.TickEvent$WorldTickEvent@3722af95:
+java.lang.BootstrapMethodError: java.lang.NoSuchMethodError: io.github.strikerrocker.vt.enchantments.EnchantmentVeteran.attemptToMove(Lnet/minecraft/entity/Entity;)V
+	at io.github.strikerrocker.vt.enchantments.EnchantmentVeteran.onTick(EnchantmentVeteran.java:28) ~[EnchantmentVeteran.class:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_29_EnchantmentVeteran_onTick_WorldTickEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) ~[ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) [EventBus.class:?]
+	at net.minecraftforge.fml.common.FMLCommonHandler.onPreWorldTick(FMLCommonHandler.java:287) [FMLCommonHandler.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:752) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+Caused by: java.lang.NoSuchMethodError: io.github.strikerrocker.vt.enchantments.EnchantmentVeteran.attemptToMove(Lnet/minecraft/entity/Entity;)V
+	at java.lang.invoke.MethodHandleNatives.resolve(Native Method) ~[?:1.8.0_221]
+	at java.lang.invoke.MemberName$Factory.resolve(Unknown Source) ~[?:1.8.0_221]
+	at java.lang.invoke.MemberName$Factory.resolveOrFail(Unknown Source) ~[?:1.8.0_221]
+	at java.lang.invoke.MethodHandles$Lookup.resolveOrFail(Unknown Source) ~[?:1.8.0_221]
+	at java.lang.invoke.MethodHandles$Lookup.linkMethodHandleConstant(Unknown Source) ~[?:1.8.0_221]
+	at java.lang.invoke.MethodHandleNatives.linkMethodHandleConstant(Unknown Source) ~[?:1.8.0_221]
+	... 10 more
+[03:52:22] [Server thread/ERROR] [FML]: Index: 2 Listeners:
+[03:52:22] [Server thread/ERROR] [FML]: 0: NORMAL
+[03:52:22] [Server thread/ERROR] [FML]: 1: ASM: io.github.strikerrocker.vt.enchantments.EnchantmentHoming@2c078e2e onWorldTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$WorldTickEvent;)V
+[03:52:22] [Server thread/ERROR] [FML]: 2: ASM: io.github.strikerrocker.vt.enchantments.EnchantmentVeteran@29741e8 onTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$WorldTickEvent;)V
+[03:52:22] [Server thread/ERROR] [FML]: 3: ASM: io.github.strikerrocker.vt.world.selfplanting.CapabilitySelfPlanting@4aca0531 onWorldTick(Lnet/minecraftforge/fml/common/gameevent/TickEvent$WorldTickEvent;)V
+[03:52:22] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]: Encountered an unexpected exception
+java.lang.BootstrapMethodError: java.lang.NoSuchMethodError: io.github.strikerrocker.vt.enchantments.EnchantmentVeteran.attemptToMove(Lnet/minecraft/entity/Entity;)V
+	at io.github.strikerrocker.vt.enchantments.EnchantmentVeteran.onTick(EnchantmentVeteran.java:28) ~[EnchantmentVeteran.class:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_29_EnchantmentVeteran_onTick_WorldTickEvent.invoke(.dynamic) ~[?:?]
+	at net.minecraftforge.fml.common.eventhandler.ASMEventHandler.invoke(ASMEventHandler.java:90) ~[ASMEventHandler.class:?]
+	at net.minecraftforge.fml.common.eventhandler.EventBus.post(EventBus.java:182) ~[EventBus.class:?]
+	at net.minecraftforge.fml.common.FMLCommonHandler.onPreWorldTick(FMLCommonHandler.java:287) ~[FMLCommonHandler.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:752) ~[MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) ~[nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) ~[MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_221]
+Caused by: java.lang.NoSuchMethodError: io.github.strikerrocker.vt.enchantments.EnchantmentVeteran.attemptToMove(Lnet/minecraft/entity/Entity;)V
+	at java.lang.invoke.MethodHandleNatives.resolve(Native Method) ~[?:1.8.0_221]
+	at java.lang.invoke.MemberName$Factory.resolve(Unknown Source) ~[?:1.8.0_221]
+	at java.lang.invoke.MemberName$Factory.resolveOrFail(Unknown Source) ~[?:1.8.0_221]
+	at java.lang.invoke.MethodHandles$Lookup.resolveOrFail(Unknown Source) ~[?:1.8.0_221]
+	at java.lang.invoke.MethodHandles$Lookup.linkMethodHandleConstant(Unknown Source) ~[?:1.8.0_221]
+	at java.lang.invoke.MethodHandleNatives.linkMethodHandleConstant(Unknown Source) ~[?:1.8.0_221]
+	... 10 more
+[03:52:22] [Server thread/ERROR] [net.minecraft.server.MinecraftServer]: This crash report has been saved to: C:\Users\Matthew\Documents\mc mods\servers\test server\.\crash-reports\crash-2019-07-31_03.52.22-server.txt
+[03:52:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[03:52:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[03:52:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[03:52:22] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
+[03:52:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/the_nether
+[03:52:24] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/the_end
+[03:52:25] [Server thread/INFO] [FML]: Unloading dimension 0
+[03:52:25] [Server thread/INFO] [FML]: Unloading dimension -1
+[03:52:25] [Server thread/INFO] [FML]: Unloading dimension 1
+[03:52:25] [Server thread/INFO] [FML]: The state engine was in incorrect state SERVER_STOPPING and forced into state SERVER_STOPPED. Errors may have been discarded.
+[03:52:25] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[03:52:25] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
